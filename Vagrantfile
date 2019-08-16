@@ -7,9 +7,8 @@ end
 
 Vagrant.configure("2") do |config|
   config.vm.define "app" do |app|
-    app.vm.box = "ubuntu/xenial64"
-    app.vm.network "private_network", ip: "192.168.10.42"
-    app.vm.synced_folder "app", "/home/ubuntu/app"
+    app.vm.box = "ubuntu/xenial64'"
+    app.vm.synced_folder "uberapp", "/home/vagrant/"
     app.vm.provision "chef_solo" do |chef|
       chef.add_recipe "nginx::default"
       chef.arguments = "--chef-license accept"

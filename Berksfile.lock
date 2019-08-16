@@ -1,0 +1,7 @@
+DEPENDENCIES
+  nginx
+    git: git@github.com:MattMackreth/ChefNginxCookbook.git
+    revision: 576cb4a086e9a01e7d9084f98aefb072b9724562
+
+GRAPH
+  nginx (0.1.0)
