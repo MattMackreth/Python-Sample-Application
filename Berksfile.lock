@@ -1,10 +1,10 @@
 DEPENDENCIES
   nginx
     git: git@github.com:MattMackreth/ChefNginxCookbook.git
-    revision: 576cb4a086e9a01e7d9084f98aefb072b9724562
+    revision: fc3e775724780bb5202a87ebe6324fbf79620b7a
   python
     git: git@github.com:MattMackreth/ChefPythonCookbook.git
-    revision: dac19d086ee736b3bcf3a5fc186fb26b25ed46c3
+    revision: 2d1d1bc1cba09f797d5c4f94ea40d005a524375a
 
 GRAPH
   nginx (0.1.0)
