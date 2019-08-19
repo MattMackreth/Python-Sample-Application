@@ -4,7 +4,7 @@ DEPENDENCIES
     revision: fc3e775724780bb5202a87ebe6324fbf79620b7a
   python
     git: git@github.com:MattMackreth/ChefPythonCookbook.git
-    revision: 2d1d1bc1cba09f797d5c4f94ea40d005a524375a
+    revision: 573fb071dd1e129971fd90dfb8f3b282fda3e430
 
 GRAPH
   nginx (0.1.0)
